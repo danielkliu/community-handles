@@ -205,8 +205,9 @@ export default async function IndexPage({
           <p className="mt-6 max-w-lg text-sm">
             If you like this project, consider{" "}
             <a href="https://github.com/sponsors/mozzius" className="underline">
-              sponsoring the developer's work.</a> This domain and hosting is community-run, click <a href="https://ko-fi.com/lorcanafanatics">here</a> to support it.
-           .
+              sponsoring the developer's work
+            </a>
+            .
           </p>
         </Stage>
       </div>
@@ -215,6 +216,9 @@ export default async function IndexPage({
 }
 
 const RESERVED = [
+  "ravensburger",
+  "quest",
+  "lore",
   "Jungkook",
   "JeonJungkook",
   "Jeon",
