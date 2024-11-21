@@ -218,7 +218,7 @@ export default async function IndexPage({
 const RESERVED = [
   "ravensburger",
   "quest",
-  "lore"
+  "lore",
   "Jungkook",
   "JeonJungkook",
   "Jeon",
