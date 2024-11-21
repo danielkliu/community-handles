@@ -199,13 +199,13 @@ export default async function IndexPage({
           <p className="max-w-lg text-sm">
             Go to Settings {">"} Advanced {">"} Change my handle. Select &quot;I
             have my own domain&quot; and enter{" "}
-            {newHandle ? "${newHandle}" : "your new handle"}. Finally, tap
+            {newHandle ? `"${newHandle}"` : "your new handle"}. Finally, tap
             &quot;Verify DNS Record&quot;.
           </p>
           <p className="mt-6 max-w-lg text-sm">
             If you like this project, consider{" "}
             <a href="https://github.com/sponsors/mozzius" className="underline">
-              sponsoring the developer's work
+              sponsoring the developer&apos; work
             </a>
             .
           </p>
@@ -218,7 +218,7 @@ export default async function IndexPage({
 const RESERVED = [
   "ravensburger",
   "quest",
-  "lore",
+  "lore"
   "Jungkook",
   "JeonJungkook",
   "Jeon",
